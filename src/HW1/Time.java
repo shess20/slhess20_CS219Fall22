@@ -21,10 +21,5 @@ public class Time {
         System.out. println(" seconds remaining in the day. ");
         System.out. print(Math.round((seconds_since_midnight/seconds_in_day)*100));
         System.out. println("% of the day has passed.");
-
-
-
-
-
     }
 }
