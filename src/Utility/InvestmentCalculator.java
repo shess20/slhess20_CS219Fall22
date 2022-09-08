@@ -1,3 +1,5 @@
+package Utility;
+
 import Utility.Investment;
 
 import java.util.Scanner;
