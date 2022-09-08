@@ -13,6 +13,7 @@ public class DayOfWeek {
         int year = s.nextInt();
         day_of_week(month, day, year);
 
+
     }
     public static void day_of_week(int month, int day, int year) {
         int year_1 = year - (14 - month)/12;
