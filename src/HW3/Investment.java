@@ -1,10 +1,8 @@
 package HW3;
 
-import Utility.Investment;
-
 import java.util.Scanner;
 
-public class InvestmentHW {
+public class Investment {
     public static double investment(double c, double r, int t, int n) {
         return c * Math.pow(1 + r / n, t * n);
 
@@ -70,6 +68,6 @@ public class InvestmentHW {
             return;
         }
         System.out.printf("Your investment is worth %.2f",
-                Investment.investment(c, r, t, n));
+                investment(c, r, t, n));
         }
     }
