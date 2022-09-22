@@ -60,7 +60,7 @@ public class Investment {
             else {
                 System.out.printf("Error: Years must be entered as a positive integer. You entered \"%s\"\n", s.next());
             }
-        }
+        } //while
         boolean valid_n = false;
         int n = 0;
         while (!valid_n) {
