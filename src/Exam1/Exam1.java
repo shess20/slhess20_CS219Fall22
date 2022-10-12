@@ -9,11 +9,13 @@ public class Exam1 {
         int n = 0;
         while (!valid_n) {
             System.out.print("Please enter a positive integer:");
-            if (s.hasNextDouble()) {
+            if (s.hasNextInt()) {
                 n = s.nextInt();
                 if (n < 0) {
-                    System.out.printf("Error: Integer cannot be negative. You entered %.2d\n", n);
-                } else {
+                    System.out.print("Error: Integer cannot be negative. You entered ");
+                    System.out.println(n);
+                }
+                else {
                     valid_n = true;
                 }
             } else {
@@ -23,7 +25,7 @@ public class Exam1 {
         int count = 0;
 
         while (n > 0) {
-            if (n % 10 <= 7 && n % 10 >= 2)
+            if (n % 10 < 7 && n % 10 > 2)
                 count++;
             n = n / 10;
         }
